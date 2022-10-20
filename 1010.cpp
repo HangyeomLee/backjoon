@@ -1,12 +1,3 @@
-echo "# backjoon" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/HangyeomLee/backjoon.git
-git push -u origin main
-#include<stdio.h>
-
 int ncr(int x,int y){
     int res=1;
     int cnt=1;
